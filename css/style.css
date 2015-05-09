@@ -81,8 +81,8 @@ a:hover, a:active {
 .content-header nav {
     background-color: #990000;
     height: 40px;    
-    border-radius: 5px;
     text-align: center;
+    border-radius: 5px;
     -moz-border-radius: 5px;    /* For Mozilla browsers */
     -webkit-border-radius: 5px; /* For Google browsers */
 }
@@ -127,9 +127,24 @@ a:hover, a:active {
     .content-header nav ul li {
         display: none;
     }
-    
+
     #pull {
         display: block;
+    }
+
+    .content-header nav ul {
+        margin-left: 35%;
+        position: absolute;
+    }
+    
+    .content-header nav ul li a:link, .content-header nav ul li a:visited {
+        height: 100%;
+    }
+
+    /* On hover */
+    .content-header nav ul:hover li {
+        display: block;
+        background-color: #990000;
     }
 }
 
