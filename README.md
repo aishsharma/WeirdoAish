@@ -1,2 +1,2 @@
 # WeirdoAish
-This will host my personal profile site and simple javascript projects
+This is my personal profile site and will have simple javascript projects

@@ -8,7 +8,7 @@
         <meta name="author" content="Aishwarya Sharma">
 
         <!-- CSS starts -->
-        <link rel="stylesheet" href="css/libs/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
         <link rel="stylesheet" href="css/style.css">
         <!-- CSS Ends -->
@@ -40,14 +40,16 @@
             </ul>
         </div>
 
+
+        <header class="content-header">
+
+            <h1> Welcome to Aish's Weird Site </h1>
+
+            <div id="topbar"></div>
+
+        </header>
+
         <div class="body">
-            <header class="content-header">
-
-                <h1> Welcome to Aish's Weird Site </h1>
-
-                <div id="topbar"></div>
-
-            </header>
 
             <div class="content">
 
@@ -297,17 +299,16 @@
             </div>
         </div>
 
+    <!-- JavaScript starts -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/main.js"></script>
 
-        <!-- JavaScript starts -->
-        <script src="js/libs/jquery.js"></script>
-        <script src="js/main.js"></script>
+    <!-- Top bar loader -->
+    <script>
+        $(document).ready(loadTopbar());
+    </script>
 
-        <!-- Top bar loader -->
-        <script>
-            $(document).ready(loadTopbar());
-        </script>
+    <!-- JavaScript ends -->
 
-        <!-- JavaScript ends -->
-
-    </body>
+</body>
 </html>

@@ -74,10 +74,15 @@ a:hover, a:active {
 
 /* Top Bar Start */
 
+#pull {
+    display: none;
+}
+
 .content-header nav {
     background-color: #990000;
     height: 40px;    
     border-radius: 5px;
+    text-align: center;
     -moz-border-radius: 5px;    /* For Mozilla browsers */
     -webkit-border-radius: 5px; /* For Google browsers */
 }
@@ -86,6 +91,7 @@ a:hover, a:active {
     top: 0;
     z-index: 100;
     position: fixed;
+    width: 100%;
 }
 
 .content-header nav ul {
@@ -94,7 +100,6 @@ a:hover, a:active {
 }
 
 .content-header nav ul li {
-    float: left;
     display: inline;
 }
 
@@ -116,6 +121,16 @@ a:hover, a:active {
     border-radius: 10px;
     -moz-border-radius: 10px;    /* For Mozilla browsers */
     -webkit-border-radius: 10px; /* For Google browsers */
+}
+
+@media screen and (max-width: 760px) {
+    .content-header nav ul li {
+        display: none;
+    }
+    
+    #pull {
+        display: block;
+    }
 }
 
 /* Top Bar End */
@@ -161,6 +176,11 @@ a:hover, a:active {
     -webkit-border-radius: 5px; /* For Google browsers */
 }
 
+@media screen and (max-width: 920px) {
+    .side-nav-wrapper {
+        display: none;
+    }
+}
 
 /* Side Bar End */
 
