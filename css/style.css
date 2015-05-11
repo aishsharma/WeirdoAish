@@ -63,10 +63,11 @@ a:hover, a:active {
 
 /* Classes are styled from here on */
 
-.body {
+.content {
     margin: 0 auto;
     width: 70%;
     clear: both;
+    overflow: hidden;
 }
 
 .content-header h1 {
@@ -139,7 +140,7 @@ a:hover, a:active {
         margin-left: 35%;
         position: absolute;
     }
-    
+
     .content-header nav ul li a:link, .content-header nav ul li a:visited {
         height: 100%;
     }
@@ -201,7 +202,3 @@ a:hover, a:active {
 }
 
 /* Side Bar End */
-
-.content {
-    overflow: hidden;
-}
