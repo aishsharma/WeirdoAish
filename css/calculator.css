@@ -1,0 +1,162 @@
+/* 
+    Created on : May 11, 2015, 6:46:52 PM
+    Author     : Aishwarya Sharma
+*/
+
+.calculator {
+    width: 350px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000;
+
+    /* More appropriate text style */
+    font: bold 14px Arial, sans-serif;
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #636596),
+        color-stop(1, #30B0B0)
+        );
+    background-image: -o-linear-gradient(bottom, #636596 0%, #30B0B0 100%);
+    background-image: -moz-linear-gradient(bottom, #636596 0%, #30B0B0 100%);
+    background-image: -webkit-linear-gradient(bottom, #636596 0%, #30B0B0 100%);
+    background-image: -ms-linear-gradient(bottom, #636596 0%, #30B0B0 100%);
+    background-image: linear-gradient(#636596 0%, #30B0B0 100%);
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;    /* For Mozilla browsers */
+    -webkit-border-radius: 5px; /* For Google browsers */
+
+    /*Box Shadows for 3D effect*/
+    box-shadow: 0px 4px #636596;
+}
+
+.keys, .top {
+    overflow: hidden;
+}
+
+.keys span, .top span.cKey {
+    float: left;
+    width: 65px;
+    height: 40px;
+    position: relative;
+
+    background: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;    /* For Mozilla browsers */
+    -webkit-border-radius: 5px; /* For Google browsers */
+
+    margin: 5px;
+    line-height: 40px;
+    text-align: center;
+
+    /*Box Shadows for 3D effect*/
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.3);
+
+    /*Make mouse cursor a pointer when hovering on buttons*/
+    cursor: pointer;
+
+    /*Prevent user from selecting button text*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /*Smoothing out key press animations*/
+    transition: all 0.2s ease;
+}
+
+/*Clear Key styling*/
+.top span.cKey {
+    float: left;
+}
+
+/*Screen styling*/
+.top .screen {
+    height: 40px;
+    width: 215px;
+    float: left;
+    margin: 5px;
+
+    background:  rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -moz-border-radius: 5px;    /* For Mozilla browsers */
+    -webkit-border-radius: 5px; /* For Google browsers */
+
+    /*Inset box shadow on the screen for 3D effect*/
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.3);
+
+    /*Fixing Text*/
+    line-height: 40px;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: wheat;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+/* Remove right margins */
+span.oKey {
+    margin-right: 0;
+}
+
+.keys .oKey {
+    background-color: #F9AA00;
+}
+
+.keys .eKey {
+    background-color: #0de426;
+}
+
+.top span.cKey {
+    background-color: #E23F3F;
+}
+
+
+/*Hover Effects*/
+.keys .nKey:hover {
+    background-color: #9999ff;
+    color: white;
+}
+
+.keys .oKey:hover {
+    background-color: #9999ff;
+    color: white;
+}
+
+.keys .eKey:hover {
+    background-color: #9999ff;
+    color: white;
+}
+
+.top span.cKey:hover {
+    background-color: #9999ff;
+    color: white;
+}
+
+
+/*Key Press Effects*/
+.keys .nKey:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.3);
+    top: 4px;
+}
+
+.keys .oKey:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.3);
+    top: 4px;
+}
+
+.keys .eKey:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.3);
+    top: 4px;
+}
+
+.top span.cKey:active {
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.3);
+    top: 4px;
+}

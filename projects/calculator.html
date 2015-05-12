@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/calculator.css">
         <!-- CSS Ends -->
     </head>
 
@@ -25,15 +26,57 @@
 
         <div class="content">
 
-            <p>
-                Calculator will come here.
-            </p>
+            <section>
+
+                <header>
+                    <h3> A Simple Calculator </h3>
+                </header>
+
+                <div class="calculator">
+
+                    <!-- Display screen and clear key -->
+                    <div class="top">
+                        <span class="cKey">C</span>
+                        <div class="screen">Test: 1234</div>
+                    </div>
+
+                    <!-- Number and Operation keys -->
+                    <div class="keys">
+                        <span class="nKey">7</span>
+                        <span class="nKey">8</span>
+                        <span class="nKey">9</span>
+
+                        <span class="oKey">÷</span>
+
+                        <span class="nKey">4</span>
+                        <span class="nKey">5</span>
+                        <span class="nKey">6</span>
+
+                        <span class="oKey">x</span>
+
+                        <span class="nKey">1</span>
+                        <span class="nKey">2</span>
+                        <span class="nKey">3</span>
+
+                        <span class="oKey">-</span>
+
+                        <span class="nKey">0</span>
+
+                        <span class="nKey">.</span>
+                        <span class="eKey">=</span>
+                        <span class="oKey">+</span>
+                    </div>
+
+                </div>
+
+            </section>
 
         </div>
 
         <!-- JavaScript starts -->
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="../js/main.js"></script>
+        <script src="../js/calculator.js"></script>
 
         <!-- Top bar loader -->
         <script>
