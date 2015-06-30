@@ -1,0 +1,34 @@
+/* 
+    Created on : Jun 6, 2015, 6:19:16 PM
+    Author     : Aishwarya Sharma
+*/
+
+#empty {
+    color: red;
+}
+
+#newQuestForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#newQuestForm input {
+    width: 500px;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;    /* For Mozilla browsers */
+    -webkit-border-radius: 5px; /* For Google browsers */
+}
+
+#questList {
+    float: left;
+}
+
+#questList ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#questList label {
+    margin-left: 5px;
+}
