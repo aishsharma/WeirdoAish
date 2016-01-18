@@ -3,15 +3,9 @@
 
 /* SITE */
     Doctype: HTML5
-    Web Framework: ZURB Foundation
-    IDE: NetBeans
+    Platform: GitHub
+	SSG: Pelican static site generator
+    Editor Used: Komodo Edit
 
 /* Purpose */
-    This is a simple site to host my professional profile as well as some simple projects.
-    All projects will be open source and hosted on github.
-
-    There isn't really any grand reason for this site, its just a way for me to polish my skills 
-    and motivate myself to do something.
-
-/* Projects */
-    This will be updated over time.
+    This is a simple site to host my professional profile and blog.
