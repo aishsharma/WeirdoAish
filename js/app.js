@@ -40,7 +40,7 @@ var aish = aish || {};
 
 aish.showSpinner = function() {
     $("#content").html("<div id='spinner'><i class='fa fa-spinner fa-pulse fa-5x'></i></div>");
-}
+};
 
 
 aish.loadContent = function(filename) {
@@ -57,6 +57,6 @@ aish.loadContent = function(filename) {
             $("#content").html(viewData);
         })
         .fail(function() {
-            $("#content").html("Could not load view data. Something went wrong with the AJAX request. Try again or contact me to report it.")
-        })
-}
+            $("#content").html("Could not load view data. Something went wrong with the AJAX request. Try again or contact me to report it.");
+        });
+};

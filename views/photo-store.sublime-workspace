@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"function without name"
+			],
+			[
+				"r",
+				"repeat"
+			],
+			[
+				"P",
+				"placeholder	Attr"
+			],
+			[
+				"b",
+				"browserify"
+			],
+			[
+				"Photo",
+				"Photo-Store"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"rep",
+				"no-repeat"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"v",
+				"viewData"
+			],
+			[
+				"pa",
+				"pathToView"
+			],
+			[
+				"loa",
+				"loadContent"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Projects/Python/Photo-Store/src/ember-test/app/routes/scientists.js",
+		"/E/Projects/Python/Photo-Store/src/ember-test/app/templates/application.hbs",
+		"/E/Projects/Python/Photo-Store/src/ember-test/app/templates/scientists.hbs",
+		"/E/Projects/Python/Photo-Store/src/ember-test/app/templates/components/people-list.hbs",
+		"/E/Projects/Python/Photo-Store/src/Web/js/main.js",
+		"/E/Projects/Python/Photo-Store/src/Web/index.html",
+		"/E/Projects/Python/Photo-Store/src/static/js/main.js",
+		"/E/Projects/Python/Photo-Store/src/static/index.html",
+		"/E/Projects/Python/Photo-Store/src/static/css/style.css",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Projects/Python/Photo-Store/package.json",
+		"/E/Projects/Python/Photo-Store/src/static/css/main.less",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/E/Projects/HTML/aishsharma.github.io/views/profile.html",
+		"/E/Projects/HTML/aishsharma.github.io/index.html",
+		"/E/Projects/HTML/aishsharma.github.io/css/style.css",
+		"/E/Projects/HTML/aishsharma.github.io/views/pets.html",
+		"/E/Projects/HTML/aishsharma.github.io/views/about.html",
+		"/E/Projects/HTML/aishsharma.github.io/views/contact.html",
+		"/E/Projects/HTML/aishsharma.github.io/js/app.js",
+		"/E/Projects/HTML/aishsharma.github.io/404.html",
+		"/E/Box Sync/Documents/Infosys/Employee ID details.txt",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Aishwarya Sharma/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			" class=\"list-group-item\"",
+			"</li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li>",
+			"</li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li>",
+			"<p>",
+			"content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<p class=\"lead\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "photo-store.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
